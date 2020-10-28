@@ -11,7 +11,7 @@ curl "${API}${URL_PATH}/${ID}" \
       "title": "'"${TITLE}"'"
       "time": "'"${TIME}"'"
       "date": "'"${DATE}"'"
-    }
+      "description": "'"${DESCRIPTION}"'"
   }'
 
 echo

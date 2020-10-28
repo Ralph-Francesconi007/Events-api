@@ -11,6 +11,7 @@ curl "${API}${URL_PATH}" \
       "title": "'"${TITLE}"'",
       "time": "'"${TIME}"'",
       "date": "'"${DATE}"'"
+      "description": "'"${DESCRIPTION}"'"
     }
   }'
 
